@@ -42,12 +42,16 @@ options:
                         Search text
   -m MAX_RESULTS, --max_results MAX_RESULTS
                         Max results 5 ~ 50 Default: 5
+  -o ORDER, --order ORDER
+                        Order support: date/rating/relevance/title/vidoeCount/viewCountDefault: relevance
+  -t TYPE, --type TYPE  type support: channel/playlist/video Default: video
   -v VERBOSE, --verbose VERBOSE
                         Verbose & saved csv files
   -d DOWNLOAD, --download DOWNLOAD
                         Download audio files
   -c CONVERT, --convert CONVERT
                         Convert Download mp4 to wav
+
 
 
 # 기초 사용법 (결과물 50개 추출)
